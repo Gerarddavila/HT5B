@@ -83,7 +83,7 @@
             <div class="col-lg-3">        
             <select name="tipo" class="form-control" id="select">
                <?php
-                  $conexion = mysql_connect('localhost','root',"MARIACRISTINA");
+                  $conexion = mysql_connect('localhost','root',"");
 
                   mysql_select_db("ClientesDB",$conexion);
 
@@ -106,7 +106,7 @@
             <div class="col-lg-5">        
             <select name="municipio" class="form-control" id="select">
                  <?php
-                  $conexion = mysql_connect('localhost','root',"MARIACRISTINA");
+                  $conexion = mysql_connect('localhost','root',"");
 
                   mysql_select_db("ClientesDB",$conexion);
 

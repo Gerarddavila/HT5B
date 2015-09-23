@@ -63,7 +63,7 @@
       </thead>
     <tbody>
 <?php 	
-	$Conexion = mysql_connect('localhost','root','MARIACRISTINA');
+	$Conexion = mysql_connect('localhost','root','');
   mysql_select_db('ClientesDB', $Conexion);
 
 	/*if (mysql_select_db('ClientesDB', $Conexion)) 
